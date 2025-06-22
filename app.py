@@ -76,6 +76,7 @@ def calculate_dpf():
         return 2.5 * (total_score / total_weight)
 
 def bmi_count(weight, height):
+    height = height/100
     return weight / height * height
 
 # Input Form
